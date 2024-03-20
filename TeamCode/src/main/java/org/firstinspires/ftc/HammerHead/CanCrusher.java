@@ -2,13 +2,12 @@ package org.firstinspires.ftc.HammerHead;
 
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
-import com.qualcomm.robotcore.exception.RobotCoreException;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Gamepad;
 import com.qualcomm.robotcore.hardware.Servo;
 
-@TeleOp(name="Mecanum Drive", group="mecanums")
-public class MecanumDrive extends LinearOpMode {
+@TeleOp(name="CanCrusher", group="summer")
+public class CanCrusher extends LinearOpMode {
 
     private DcMotor leftFront   = null;
     private DcMotor rightFront  = null;
